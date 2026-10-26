@@ -1,30 +1,21 @@
-TeamOnly CLI and SDK license
+MIT License
 
-Copyright (c) 2026 TeamOnly. All rights reserved.
+Copyright (c) 2026 TeamOnly
 
-This package (the teamonly command line tool and the teamonly/server,
-teamonly/client and teamonly/react libraries) is free to use with TeamOnly.
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-You may:
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 
-- install and run it, at no cost, to build apps, run them on your own
-  computer and deploy them to TeamOnly;
-- bundle the libraries into the apps you build, as part of those apps;
-- use, change and keep the starter app, templates and AI instructions that
-  `teamonly init` writes into your project. That code is yours to do with as
-  you like, including after you stop using TeamOnly.
-
-You may not:
-
-- redistribute or sell this package, or a changed copy of it, on its own;
-- use it, or a changed copy of it, to deploy to or build a hosting service
-  other than TeamOnly;
-- remove this notice from copies of the package.
-
-Using the TeamOnly service (deploying, hosting, sign-in, the dashboard) is
-covered by the terms of service at https://teamonly.dev/terms.
-
-The package is provided "as is", without warranty of any kind. To the extent
-the law allows, TeamOnly is not liable for any damages arising from its use.
-
-Questions: hello@teamonly.dev
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.

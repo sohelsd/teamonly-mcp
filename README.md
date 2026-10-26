@@ -65,6 +65,10 @@ Five ready-made internal tools (expense approval, customer lookup, inventory tra
 
 [`src/mcp.ts`](src/mcp.ts) is the server. It ships inside the `teamonly` npm package next to the command line tool it runs: each tool call runs the matching `teamonly` command without a terminal and returns its output, so the MCP tools and the CLI always behave the same. This copy is updated with each release. The [Dockerfile](Dockerfile) runs the published package.
 
+## License
+
+This repository is MIT licensed. The `teamonly` npm package it runs has [its own license](https://www.npmjs.com/package/teamonly?activeTab=code).
+
 ## Support
 
 Email hello@teamonly.dev.
