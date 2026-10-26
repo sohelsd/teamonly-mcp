@@ -1,0 +1,8 @@
+# Runs the server from the teamonly npm package over stdio.
+startCommand:
+  type: stdio
+  configSchema:
+    type: object
+    properties: {}
+  commandFunction: |-
+    () => ({ command: 'npx', args: ['-y', 'teamonly', 'mcp'] })

@@ -1,0 +1,30 @@
+TeamOnly CLI and SDK license
+
+Copyright (c) 2026 TeamOnly. All rights reserved.
+
+This package (the teamonly command line tool and the teamonly/server,
+teamonly/client and teamonly/react libraries) is free to use with TeamOnly.
+
+You may:
+
+- install and run it, at no cost, to build apps, run them on your own
+  computer and deploy them to TeamOnly;
+- bundle the libraries into the apps you build, as part of those apps;
+- use, change and keep the starter app, templates and AI instructions that
+  `teamonly init` writes into your project. That code is yours to do with as
+  you like, including after you stop using TeamOnly.
+
+You may not:
+
+- redistribute or sell this package, or a changed copy of it, on its own;
+- use it, or a changed copy of it, to deploy to or build a hosting service
+  other than TeamOnly;
+- remove this notice from copies of the package.
+
+Using the TeamOnly service (deploying, hosting, sign-in, the dashboard) is
+covered by the terms of service at https://teamonly.dev/terms.
+
+The package is provided "as is", without warranty of any kind. To the extent
+the law allows, TeamOnly is not liable for any damages arising from its use.
+
+Questions: hello@teamonly.dev
