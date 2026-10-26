@@ -61,6 +61,10 @@ There are no API keys to paste. The agent asks for your work email, calls `sign_
 
 Five ready-made internal tools (expense approval, customer lookup, inventory tracker, request form, ask the docs): [sohelsd/teamonly-templates](https://github.com/sohelsd/teamonly-templates).
 
+## Source
+
+[`src/mcp.ts`](src/mcp.ts) is the server. It ships inside the `teamonly` npm package next to the command line tool it runs: each tool call runs the matching `teamonly` command without a terminal and returns its output, so the MCP tools and the CLI always behave the same. This copy is updated with each release. The [Dockerfile](Dockerfile) runs the published package.
+
 ## Support
 
 Email hello@teamonly.dev.
