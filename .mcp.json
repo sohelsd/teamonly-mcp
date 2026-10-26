@@ -1,0 +1,5 @@
+{
+  "mcpServers": {
+    "teamonly": { "command": "npx", "args": ["-y", "teamonly", "mcp"] }
+  }
+}
