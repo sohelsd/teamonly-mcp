@@ -93,6 +93,22 @@ const TOOLS: Tool[] = [
     run: (_a, dir) => cli(['deploy'], dir),
   },
   {
+    name: 'versions',
+    title: 'List the app\'s versions',
+    description: 'Lists the deployed versions of the app, newest first: number, when, who deployed it, and which one is live. The last 10 can be put back with rollback.',
+    props: { directory },
+    annotations: { readOnlyHint: true },
+    run: (_a, dir) => cli(['versions'], dir),
+  },
+  {
+    name: 'rollback',
+    title: 'Put an earlier version back',
+    description: 'Puts the previous version of the app back live (or "version", a number from versions). Use it when a deploy broke the app and the person wants the last working one back now. Code, pages and scheduled jobs go back; the database is not changed.',
+    props: { directory, version: { type: 'number', description: 'Optional: the version number to put back' } },
+    annotations: { openWorldHint: true },
+    run: (a, dir) => cli(['rollback', ...(Number.isInteger(Number(a.version)) && a.version !== undefined ? [String(a.version)] : [])], dir),
+  },
+  {
     name: 'status',
     title: 'Who is signed in, plan and apps',
     description: 'Shows who is signed in to TeamOnly on this computer, the company and plan (with free trial days left), and every app with its address, who can open it and when it was last deployed.',
