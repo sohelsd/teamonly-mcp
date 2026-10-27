@@ -41,6 +41,7 @@ code --add-mcp '{"name":"teamonly","command":"npx","args":["-y","teamonly","mcp"
 | `deploy` | Builds the app and puts it online behind your company login. |
 | `versions` | Lists the app's versions: when, who deployed each, and which is live. |
 | `rollback` | Puts the previous version (or a chosen one) back live in seconds. |
+| `pull` | Downloads a deployed app's code into a new folder, so you can change an app whose code isn't on your computer. Owner or admin. |
 | `status` | Who is signed in, the plan, and every app with who can open it. |
 | `logs` | Watches the live app's requests, `console.log` output and errors for 5 to 60 seconds. |
 | `access` | Who can open the app: everyone at the company, or a list of people. |
