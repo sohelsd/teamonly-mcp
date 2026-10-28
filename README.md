@@ -2,7 +2,7 @@
 
 Deploy the internal apps you build with AI behind your company login, from Claude Code, Cursor, Claude Desktop, VS Code, Windsurf or any MCP client.
 
-Say "deploy this on TeamOnly" and your agent puts the app online at `https://<app>.<company>.teamonly.app`. Only people with an email at your company can open it: they sign in with their work Google or Microsoft account, or a code sent to their work email. The app gets its own database, file storage and secrets. Free for 14 days, no card.
+Say "deploy this on TeamOnly" and your agent puts the app online at `https://<app>.<company>.teamonly.app`. Only people with an email at your company can open it: they sign in with their work Google or Microsoft account, or a code sent to their work email. The app gets its own database, file storage and secrets, and can read and add rows in Google Sheets your team shares with it. Free for 14 days, no card.
 
 Website: [teamonly.dev/mcp](https://teamonly.dev/mcp?ref=github-mcp) · npm: [teamonly](https://www.npmjs.com/package/teamonly) · MCP Registry: `dev.teamonly/teamonly`
 
